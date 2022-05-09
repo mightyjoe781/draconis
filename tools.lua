@@ -86,7 +86,7 @@ minetest.register_tool("draconis:sword_dragonbone", {
         },
         damage_groups = {fleshy = 12}
     },
-    range = 6,
+    range = 5,
     sound = {breaks = "default_tool_breaks"},
     groups = {sword = 1}
 })
@@ -119,7 +119,7 @@ minetest.register_tool("draconis:pick_"..element.."_draconic_steel", {
         },
         damage_groups = {fleshy = 35}
     },
-    range = 6,
+    range = 5,
     sound = {breaks = "default_tool_breaks"},
     groups = {pickaxe = 1}
 })
@@ -140,7 +140,7 @@ minetest.register_tool("draconis:shovel_"..element.."_draconic_steel", {
         },
         damage_groups = {fleshy = 30}
     },
-    range = 6,
+    range = 5,
     sound = {breaks = "default_tool_breaks"},
     groups = {shovel = 1}
 })
@@ -161,7 +161,7 @@ minetest.register_tool("draconis:axe_"..element.."_draconic_steel", {
         },
         damage_groups = {fleshy = 55}
     },
-    range = 6,
+    range = 5,
     sound = {breaks = "default_tool_breaks"},
     groups = {axe = 1}
 })
@@ -182,7 +182,7 @@ minetest.register_tool("draconis:sword_"..element.."_draconic_steel", {
         },
         damage_groups = {fleshy = 60}
     },
-    range = 6,
+    range = 5,
     sound = {breaks = "default_tool_breaks"},
     groups = {sword = 1}
 })
