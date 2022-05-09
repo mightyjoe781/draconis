@@ -131,7 +131,7 @@ function draconis.register_forge(name, def)
 		description = def.description,
 		tiles = def.tiles,
 		paramtype2 = "facedir",
-		groups = {cracky = 2},
+		groups = {cracky = 2, not_in_creative_inventory = 1},
 		legacy_facedir_simple = true,
 		is_ground_content = false,
 		sounds = default.node_sound_stone_defaults(),
